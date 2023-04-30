@@ -34,7 +34,6 @@ logger.addHandler(localHandler)
 
 # disables logging when uncommented
 # logging.disable(logging.CRITICAL)
-# logging.debug(' Start of program')
 
 
 def spyder_message(message):
@@ -133,8 +132,6 @@ logger.debug(f'returnCount = {returnCount}')
 parsedMessage = replace_space(msgRcvd)
 
 
-#
-#
 #
 # new list
 gList = []  # the new grouped list
